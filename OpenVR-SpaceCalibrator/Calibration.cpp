@@ -269,7 +269,16 @@ void ScanAndApplyProfile(CalibrationContext &ctx)
 			continue;
 		}
 
-		std::string trackingSystem(buffer);
+		std::string trackingSystem;
+		if (deviceClass == vr::TrackedDeviceClass_HMD) {
+			trackingSystem = "HMD";
+		}
+		else if (deviceClass == vr::TrackedDeviceClass_Controller) {
+			trackingSystem = "Controller";
+		}
+		else {
+			trackingSystem = "Peripherals";
+		}
 
 		if (id == vr::k_unTrackedDeviceIndex_Hmd)
 		{
