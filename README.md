@@ -1,3 +1,11 @@
+# Pimax Crystal + SLAM Controllers
+
+This attempts to solve some calibration issues when using the Pimax Crystal + Inside out controllers alongside Vive trackers by splitting the HMD, Controllers and Trackers into separate groupts, allowing you to align the HMD + Trackers without affecting the inside out Controller's positioning. 
+
+This is not suitable for Pimax Crystal + Index controllers + Vive trackers as the controllers may not calibrate correctly (Knuckles + Vives may be in separate universes, thus not calibrating together the HMD.) I'll try to work on that when i have more time.
+
+This branch has been brought up to date with current community performance fixes and continuous calibration.
+
 # OpenVR Space Calibrator
 
 This helps you use tracked VR devices from one company with any other. It aligns multiple tracking systems with a quick calibration step. It may not work for your setup, but there are many cases that work to a degree, and some work very well.
