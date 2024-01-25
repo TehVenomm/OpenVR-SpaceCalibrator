@@ -4,7 +4,7 @@ This attempts to solve some calibration issues when using the Pimax Crystal + In
 
 This is not suitable for Pimax Crystal + Index controllers + Vive trackers as the controllers may not calibrate correctly (Knuckles + Vives may be in separate universes, thus not calibrating together the HMD.) I'll try to work on that when i have more time.
 
-This branch has been brought up to date with current community performance fixes and continuous calibration.
+This branch has been brought up to date with current community performance fixes and continuous calibration. (You may need to calibrate once for continuous calibration to show up)
 
 # OpenVR Space Calibrator
 
