@@ -1,6 +1,6 @@
 # Pimax Crystal + SLAM Controllers
 
-This attempts to solve some calibration issues when using the Pimax Crystal + Inside out controllers alongside Vive trackers by splitting the HMD, Controllers and Trackers into separate groupts, allowing you to align the HMD + Trackers without affecting the inside out Controller's positioning. 
+This attempts to solve some calibration issues when using the Pimax Crystal + Inside out controllers alongside Vive trackers by splitting the HMD, Controllers and Trackers into separate groups, allowing you to align the HMD + Trackers without affecting the inside out Controller's positioning. 
 
 This is not suitable for Pimax Crystal + Index controllers + Vive trackers as the controllers may not calibrate correctly (Knuckles + Vives may be in separate universes, thus not calibrating together the HMD.) I'll try to work on that when i have more time.
 
